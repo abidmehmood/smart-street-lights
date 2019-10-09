@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="5">
+  <element id="0" manual="true">
+    <element id="1">
+      <element id="3" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>cmd</seg>
+        </bo>
+        <position y="56.0"/>
+        <contentFilters/>
+      </element>
+      <element id="2">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>light_ctrl</seg>
+      </bo>
+      <position x="149.0" y="38.0"/>
+      <size width="280.0" height="151.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>sslights::actuating</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="669.0" height="329.0"/>
+    <contentFilters>
+      <filter>agree.all</filter>
+      <filter>classifiers</filter>
+    </contentFilters>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>sslights::actuating</seg>
+    </context>
+  </config>
+</diagram:Diagram>

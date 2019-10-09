@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="5">
+  <element id="0" manual="true">
+    <element id="6" manual="true">
+      <element id="14" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>speed</seg>
+        </bo>
+        <position x="318.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="13" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>speed_estimate</seg>
+        </bo>
+        <position y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="15">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>speed_assessor</seg>
+      </bo>
+      <position x="454.0" y="37.0"/>
+      <size width="371.0" height="88.0"/>
+      <contentFilters>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+        <filter>agree.all</filter>
+        <filter>features</filter>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="1" manual="true">
+      <element id="10">
+        <element id="7">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c0</seg>
+        </bo>
+        <bendpoints>
+          <point x="602.0" y="465.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="11">
+        <element id="8">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c1</seg>
+        </bo>
+        <bendpoints>
+          <point x="678.0" y="465.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="22" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>speed</seg>
+        </bo>
+        <position x="325.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="23" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>speed_estimate</seg>
+        </bo>
+        <position y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="12">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <bendpoints>
+          <point x="592.0" y="465.0"/>
+          <point x="592.0" y="437.0"/>
+          <point x="688.0" y="437.0"/>
+          <point x="688.0" y="465.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="2">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="628.0" y="415.0"/>
+          <point x="640.0" y="415.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="9">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>thr</seg>
+        </bo>
+        <position x="142.0" y="51.0"/>
+        <size width="76.0" height="35.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>speed_assessor.i</seg>
+      </bo>
+      <position x="270.0" y="37.0"/>
+      <size width="378.0" height="98.0"/>
+      <contentFilters>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>flowSpecifications</filter>
+        <filter>processorFeatures</filter>
+        <filter>subcomponents</filter>
+        <filter>internalFeatures</filter>
+        <filter>connections</filter>
+        <filter>agree.all</filter>
+        <filter>features</filter>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="3" manual="true">
+      <element id="20" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>speed</seg>
+        </bo>
+        <position x="344.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="19" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>speed_estimate</seg>
+        </bo>
+        <position y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="21">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>speed_assessor_thr</seg>
+      </bo>
+      <position x="481.0" y="84.0"/>
+      <size width="397.0" height="88.0"/>
+      <contentFilters>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+        <filter>agree.all</filter>
+        <filter>features</filter>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <element id="4" manual="true">
+      <element id="17" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>speed</seg>
+        </bo>
+        <position x="352.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="16" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>speed_estimate</seg>
+        </bo>
+        <position y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="18">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="5">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="655.0" y="462.0"/>
+          <point x="667.0" y="462.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>speed_assessor_thr.i</seg>
+      </bo>
+      <position x="270.0" y="84.0"/>
+      <size width="405.0" height="88.0"/>
+      <contentFilters>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>flowSpecifications</filter>
+        <filter>processorFeatures</filter>
+        <filter>subcomponents</filter>
+        <filter>internalFeatures</filter>
+        <filter>connections</filter>
+        <filter>agree.all</filter>
+        <filter>features</filter>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>sslights::processing::speed_assessor</seg>
+    </bo>
+    <position x="190.0" y="360.0"/>
+    <size width="910.0" height="231.0"/>
+    <contentFilters>
+      <filter>agree.all</filter>
+      <filter>classifiers</filter>
+    </contentFilters>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>sslights::processing::speed_assessor</seg>
+    </context>
+  </config>
+</diagram:Diagram>

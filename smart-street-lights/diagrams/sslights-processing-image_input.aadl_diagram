@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="5">
+  <element id="0" manual="true">
+    <element id="4">
+      <element id="17" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>object_detected</seg>
+        </bo>
+        <position x="226.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="16" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>raw_image</seg>
+        </bo>
+        <position y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="15">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>image_input</seg>
+      </bo>
+      <position x="719.0" y="58.0"/>
+      <size width="345.0" height="88.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="2">
+      <element id="8">
+        <element id="9">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c0</seg>
+        </bo>
+        <bendpoints>
+          <point x="194.0" y="128.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="13">
+        <element id="14">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c1</seg>
+        </bo>
+        <bendpoints>
+          <point x="305.0" y="128.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="12" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>object_detected</seg>
+        </bo>
+        <position x="412.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="11" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>raw_image</seg>
+        </bo>
+        <position y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="10">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <bendpoints>
+          <point x="184.0" y="128.0"/>
+          <point x="184.0" y="100.0"/>
+          <point x="315.0" y="100.0"/>
+          <point x="315.0" y="128.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="3">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="220.0" y="78.0"/>
+          <point x="232.0" y="78.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="7">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>thr_input</seg>
+        </bo>
+        <position x="170.0" y="100.0"/>
+        <size width="160.0" height="60.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>image_input.i</seg>
+      </bo>
+      <position x="68.0" y="48.0"/>
+      <size width="531.0" height="201.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>processorFeatures</filter>
+        <filter>internalFeatures</filter>
+      </contentFilters>
+    </element>
+    <element id="1">
+      <element id="27" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>object_detected</seg>
+        </bo>
+        <position x="249.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="26" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>raw_image</seg>
+        </bo>
+        <position y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="25">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>image_input_thr</seg>
+      </bo>
+      <position x="708.0" y="338.0"/>
+      <size width="368.0" height="88.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="5">
+      <element id="24" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>object_detected</seg>
+        </bo>
+        <position x="257.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="23" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>raw_image</seg>
+        </bo>
+        <position y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="22">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="6">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="256.0" y="398.0"/>
+          <point x="268.0" y="398.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>image_input_thr.i</seg>
+      </bo>
+      <position x="78.0" y="368.0"/>
+      <size width="376.0" height="88.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>processorFeatures</filter>
+        <filter>internalFeatures</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>sslights::processing::image_input</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="1099.0" height="609.0"/>
+    <contentFilters>
+      <filter>classifiers</filter>
+    </contentFilters>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>sslights::processing::image_input</seg>
+    </context>
+  </config>
+</diagram:Diagram>

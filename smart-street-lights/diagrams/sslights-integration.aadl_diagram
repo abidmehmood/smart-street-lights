@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="5">
+  <element id="0" manual="true">
+    <element id="1">
+      <bo>
+        <seg>classifier</seg>
+        <seg>integration</seg>
+      </bo>
+      <position x="590.0" y="10.0"/>
+      <size width="116.0" height="35.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="2">
+      <element id="27">
+        <element id="28">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c00</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="52">
+        <element id="53">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c01</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="44">
+        <element id="45">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c03</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="46">
+        <element id="47">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c04</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="48">
+        <element id="49">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c05</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="50">
+        <element id="51">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c06</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="38">
+        <element id="39">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c07</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="40">
+        <element id="41">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c08</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="42">
+        <element id="43">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c09</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="32">
+        <element id="33">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c10</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="34">
+        <element id="35">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c11</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="36">
+        <element id="37">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c12</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="3">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="312.0" y="168.0"/>
+          <point x="324.0" y="168.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="5">
+        <element id="11" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>raw_image</seg>
+          </bo>
+          <position x="316.0" y="4.0"/>
+          <contentFilters/>
+        </element>
+        <element id="10">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f0</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element id="12">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>detection_camera</seg>
+        </bo>
+        <position x="100.0" y="50.0"/>
+        <size width="398.0" height="59.0"/>
+        <contentFilters>
+          <filter>agree.all</filter>
+          <filter>subcomponentType</filter>
+          <filter>features</filter>
+          <filter>modeTransitions</filter>
+          <filter>modes</filter>
+          <filter>flowSpecifications</filter>
+          <filter>connections</filter>
+          <filter>subcomponents</filter>
+          <filter>subprogramCallSequences</filter>
+          <filter>processorFeatures</filter>
+          <filter>internalFeatures</filter>
+        </contentFilters>
+      </element>
+      <element id="18">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>distance_calc</seg>
+        </bo>
+        <position x="683.0" y="300.0"/>
+        <size width="140.0" height="35.0"/>
+        <contentFilters/>
+      </element>
+      <element id="23">
+        <element id="67">
+          <element id="68">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c0</seg>
+          </bo>
+          <bendpoints>
+            <point x="934.0" y="288.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="72">
+          <element id="73">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c1</seg>
+          </bo>
+          <bendpoints>
+            <point x="1045.0" y="288.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="71" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>object_detected</seg>
+          </bo>
+          <position x="350.0" y="57.0"/>
+          <contentFilters/>
+        </element>
+        <element id="70" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>raw_image</seg>
+          </bo>
+          <position y="57.0"/>
+          <contentFilters/>
+        </element>
+        <element id="69">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f0</seg>
+          </bo>
+          <bendpoints>
+            <point x="924.0" y="288.0"/>
+            <point x="924.0" y="260.0"/>
+            <point x="1055.0" y="260.0"/>
+            <point x="1055.0" y="288.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="140">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>thr</seg>
+          </bo>
+          <position/>
+          <size width="76.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element id="74">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>image_input</seg>
+        </bo>
+        <position x="700.0" y="50.0"/>
+        <size width="460.0" height="118.0"/>
+        <contentFilters>
+          <filter>agree.all</filter>
+          <filter>subcomponentType</filter>
+          <filter>features</filter>
+          <filter>modeTransitions</filter>
+          <filter>modes</filter>
+          <filter>flowSpecifications</filter>
+          <filter>connections</filter>
+          <filter>subcomponents</filter>
+          <filter>subprogramCallSequences</filter>
+          <filter>processorFeatures</filter>
+          <filter>internalFeatures</filter>
+        </contentFilters>
+      </element>
+      <element id="22">
+        <element id="120">
+          <element id="121">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c00</seg>
+          </bo>
+          <bendpoints>
+            <point x="445.0" y="893.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="124">
+          <element id="125">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c01</seg>
+          </bo>
+          <bendpoints>
+            <point x="419.0" y="844.0"/>
+            <point x="419.0" y="881.0"/>
+            <point x="441.0" y="881.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="128">
+          <element id="129">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c02</seg>
+          </bo>
+          <bendpoints>
+            <point x="561.0" y="887.0"/>
+            <point x="580.0" y="887.0"/>
+            <point x="580.0" y="915.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="118">
+          <element id="119">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c10</seg>
+          </bo>
+          <bendpoints>
+            <point x="429.0" y="893.0"/>
+            <point x="429.0" y="811.0"/>
+            <point x="435.0" y="811.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="122">
+          <element id="123">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c11</seg>
+          </bo>
+          <bendpoints>
+            <point x="419.0" y="844.0"/>
+            <point x="419.0" y="800.0"/>
+            <point x="435.0" y="800.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="126">
+          <element id="127">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c12</seg>
+          </bo>
+          <bendpoints>
+            <point x="574.0" y="806.0"/>
+            <point x="580.0" y="806.0"/>
+            <point x="580.0" y="833.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="133" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>act_type</seg>
+          </bo>
+          <position y="93.0"/>
+          <contentFilters/>
+        </element>
+        <element id="130" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>color_cmd</seg>
+          </bo>
+          <position x="461.0" y="164.0"/>
+          <contentFilters/>
+        </element>
+        <element id="116" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>intensity_cmd</seg>
+          </bo>
+          <position x="442.0" y="82.0"/>
+          <contentFilters/>
+        </element>
+        <element id="117" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>lp_ids</seg>
+          </bo>
+          <position y="142.0"/>
+          <contentFilters/>
+        </element>
+        <element id="135">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f00</seg>
+          </bo>
+          <bendpoints>
+            <point x="429.0" y="893.0"/>
+            <point x="429.0" y="915.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="134">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f01</seg>
+          </bo>
+          <bendpoints>
+            <point x="580.0" y="844.0"/>
+            <point x="580.0" y="915.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="137">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f10</seg>
+          </bo>
+          <bendpoints>
+            <point x="429.0" y="893.0"/>
+            <point x="429.0" y="833.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="136">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f11</seg>
+          </bo>
+          <bendpoints>
+            <point x="419.0" y="844.0"/>
+            <point x="419.0" y="777.0"/>
+            <point x="580.0" y="777.0"/>
+            <point x="580.0" y="833.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="115">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>color_thr</seg>
+          </bo>
+          <position x="115.0" y="150.0"/>
+          <size width="112.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element id="132">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>intensity_thr</seg>
+          </bo>
+          <position x="109.0" y="68.0"/>
+          <size width="131.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element id="131">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>lamppost_controller</seg>
+        </bo>
+        <position x="210.0" y="570.0"/>
+        <size width="540.0" height="215.0"/>
+        <contentFilters>
+          <filter>agree.all</filter>
+          <filter>subcomponentType</filter>
+          <filter>features</filter>
+          <filter>modeTransitions</filter>
+          <filter>modes</filter>
+          <filter>flowSpecifications</filter>
+          <filter>connections</filter>
+          <filter>subcomponents</filter>
+          <filter>subprogramCallSequences</filter>
+          <filter>processorFeatures</filter>
+          <filter>internalFeatures</filter>
+        </contentFilters>
+      </element>
+      <element id="4">
+        <element id="13" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>speed</seg>
+          </bo>
+          <position x="358.0" y="13.0"/>
+          <contentFilters/>
+        </element>
+        <element id="14">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f0</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element id="15">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>laser_motion_sensor</seg>
+        </bo>
+        <position x="88.0" y="250.0"/>
+        <size width="411.0" height="59.0"/>
+        <contentFilters>
+          <filter>agree.all</filter>
+          <filter>subcomponentType</filter>
+          <filter>features</filter>
+          <filter>modeTransitions</filter>
+          <filter>modes</filter>
+          <filter>flowSpecifications</filter>
+          <filter>connections</filter>
+          <filter>subcomponents</filter>
+          <filter>subprogramCallSequences</filter>
+          <filter>processorFeatures</filter>
+          <filter>internalFeatures</filter>
+        </contentFilters>
+      </element>
+      <element id="16">
+        <element id="31" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>color_cmd</seg>
+          </bo>
+          <position y="10.0"/>
+          <contentFilters/>
+        </element>
+        <element id="29" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>intensity_cmd</seg>
+          </bo>
+          <position y="59.0"/>
+          <contentFilters/>
+        </element>
+        <element id="24">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f0</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element id="30">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f1</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element id="26">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>light_ctrl</seg>
+        </bo>
+        <position x="890.0" y="630.0"/>
+        <size width="430.0" height="108.0"/>
+        <contentFilters>
+          <filter>agree.all</filter>
+          <filter>subcomponentType</filter>
+          <filter>features</filter>
+          <filter>modeTransitions</filter>
+          <filter>modes</filter>
+          <filter>flowSpecifications</filter>
+          <filter>connections</filter>
+          <filter>subcomponents</filter>
+          <filter>subprogramCallSequences</filter>
+          <filter>processorFeatures</filter>
+          <filter>internalFeatures</filter>
+        </contentFilters>
+      </element>
+      <element id="19">
+        <element id="75">
+          <element id="76">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c0</seg>
+          </bo>
+          <bendpoints>
+            <point x="931.0" y="428.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="83">
+          <element id="84">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c1</seg>
+          </bo>
+          <bendpoints>
+            <point x="921.0" y="477.0"/>
+            <point x="921.0" y="440.0"/>
+            <point x="927.0" y="440.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="81">
+          <element id="82">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c2</seg>
+          </bo>
+          <bendpoints>
+            <point x="1007.0" y="434.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="80" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>distance_estimate</seg>
+          </bo>
+          <position x="340.0" y="63.0"/>
+          <contentFilters/>
+        </element>
+        <element id="86" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>object_position</seg>
+          </bo>
+          <position y="106.0"/>
+          <contentFilters/>
+        </element>
+        <element id="79" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>raw_image</seg>
+          </bo>
+          <position y="57.0"/>
+          <contentFilters/>
+        </element>
+        <element id="77">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f0</seg>
+          </bo>
+          <bendpoints>
+            <point x="921.0" y="428.0"/>
+            <point x="921.0" y="405.0"/>
+            <point x="1017.0" y="405.0"/>
+            <point x="1017.0" y="434.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="78">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f1</seg>
+          </bo>
+          <bendpoints>
+            <point x="1017.0" y="477.0"/>
+            <point x="1017.0" y="434.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="87">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>thr</seg>
+          </bo>
+          <position x="137.0" y="76.0"/>
+          <size width="76.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element id="85">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>object_detection</seg>
+        </bo>
+        <position x="674.0" y="190.0"/>
+        <size width="466.0" height="157.0"/>
+        <contentFilters>
+          <filter>agree.all</filter>
+          <filter>subcomponentType</filter>
+          <filter>features</filter>
+          <filter>modeTransitions</filter>
+          <filter>modes</filter>
+          <filter>flowSpecifications</filter>
+          <filter>connections</filter>
+          <filter>subcomponents</filter>
+          <filter>subprogramCallSequences</filter>
+          <filter>processorFeatures</filter>
+          <filter>internalFeatures</filter>
+        </contentFilters>
+      </element>
+      <element id="6">
+        <element id="8" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>distance_estimate</seg>
+          </bo>
+          <position x="285.0" y="13.0"/>
+          <contentFilters/>
+        </element>
+        <element id="7">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f0</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element id="9">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>object_radar</seg>
+        </bo>
+        <position x="88.0" y="167.0"/>
+        <size width="411.0" height="59.0"/>
+        <contentFilters>
+          <filter>agree.all</filter>
+          <filter>subcomponentType</filter>
+          <filter>features</filter>
+          <filter>modeTransitions</filter>
+          <filter>modes</filter>
+          <filter>flowSpecifications</filter>
+          <filter>connections</filter>
+          <filter>subcomponents</filter>
+          <filter>subprogramCallSequences</filter>
+          <filter>processorFeatures</filter>
+          <filter>internalFeatures</filter>
+        </contentFilters>
+      </element>
+      <element id="17">
+        <element id="58">
+          <element id="59">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c0</seg>
+          </bo>
+          <bendpoints>
+            <point x="282.0" y="597.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="61">
+          <element id="62">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c1</seg>
+          </bo>
+          <bendpoints>
+            <point x="358.0" y="597.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="63" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>msg_in</seg>
+          </bo>
+          <position y="57.0"/>
+          <contentFilters/>
+        </element>
+        <element id="56" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>msg_out</seg>
+          </bo>
+          <position x="323.0" y="57.0"/>
+          <contentFilters/>
+        </element>
+        <element id="57" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>warning</seg>
+          </bo>
+          <position y="118.0"/>
+          <contentFilters/>
+        </element>
+        <element id="60">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f0</seg>
+          </bo>
+          <bendpoints>
+            <point x="272.0" y="597.0"/>
+            <point x="272.0" y="569.0"/>
+            <point x="368.0" y="569.0"/>
+            <point x="368.0" y="597.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="65">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>thr</seg>
+          </bo>
+          <position x="92.0" y="71.0"/>
+          <size width="76.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element id="64">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>peer_check</seg>
+        </bo>
+        <position x="70.0" y="359.0"/>
+        <size width="391.0" height="169.0"/>
+        <contentFilters>
+          <filter>agree.all</filter>
+          <filter>subcomponentType</filter>
+          <filter>features</filter>
+          <filter>modeTransitions</filter>
+          <filter>modes</filter>
+          <filter>flowSpecifications</filter>
+          <filter>connections</filter>
+          <filter>subcomponents</filter>
+          <filter>subprogramCallSequences</filter>
+          <filter>processorFeatures</filter>
+          <filter>internalFeatures</filter>
+        </contentFilters>
+      </element>
+      <element id="21">
+        <element id="89">
+          <element id="90">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c0</seg>
+          </bo>
+          <bendpoints>
+            <point x="802.0" y="623.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="92">
+          <element id="93">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c1</seg>
+          </bo>
+          <bendpoints>
+            <point x="878.0" y="623.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="88" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>speed</seg>
+          </bo>
+          <position x="407.0" y="57.0"/>
+          <contentFilters/>
+        </element>
+        <element id="95" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>speed_estimate</seg>
+          </bo>
+          <position y="57.0"/>
+          <contentFilters/>
+        </element>
+        <element id="91">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f0</seg>
+          </bo>
+          <bendpoints>
+            <point x="792.0" y="623.0"/>
+            <point x="792.0" y="595.0"/>
+            <point x="888.0" y="595.0"/>
+            <point x="888.0" y="623.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="96">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>thr</seg>
+          </bo>
+          <position x="142.0" y="71.0"/>
+          <size width="76.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element id="94">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>speed_assessor</seg>
+        </bo>
+        <position x="540.0" y="385.0"/>
+        <size width="460.0" height="118.0"/>
+        <contentFilters>
+          <filter>agree.all</filter>
+          <filter>subcomponentType</filter>
+          <filter>features</filter>
+          <filter>modeTransitions</filter>
+          <filter>modes</filter>
+          <filter>flowSpecifications</filter>
+          <filter>connections</filter>
+          <filter>subcomponents</filter>
+          <filter>subprogramCallSequences</filter>
+          <filter>processorFeatures</filter>
+          <filter>internalFeatures</filter>
+        </contentFilters>
+      </element>
+      <element id="20">
+        <element id="99">
+          <element id="100">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c0</seg>
+          </bo>
+          <bendpoints>
+            <point x="1259.0" y="597.0"/>
+            <point x="1259.0" y="634.0"/>
+            <point x="1265.0" y="634.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="113">
+          <element id="114">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c1</seg>
+          </bo>
+          <bendpoints>
+            <point x="1259.0" y="668.0"/>
+            <point x="1259.0" y="646.0"/>
+            <point x="1265.0" y="646.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="111">
+          <element id="112">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c2</seg>
+          </bo>
+          <bendpoints>
+            <point x="1345.0" y="646.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="108">
+          <element id="109">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c3</seg>
+          </bo>
+          <bendpoints>
+            <point x="1349.0" y="634.0"/>
+            <point x="1355.0" y="634.0"/>
+            <point x="1355.0" y="597.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="110" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>act_type</seg>
+          </bo>
+          <position x="314.0" y="57.0"/>
+          <contentFilters/>
+        </element>
+        <element id="97" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>distance</seg>
+          </bo>
+          <position y="128.0"/>
+          <contentFilters/>
+        </element>
+        <element id="101" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>lp_ids</seg>
+          </bo>
+          <position x="329.0" y="106.0"/>
+          <contentFilters/>
+        </element>
+        <element id="98" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>speed</seg>
+          </bo>
+          <position y="57.0"/>
+          <contentFilters/>
+        </element>
+        <element id="106">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f0</seg>
+          </bo>
+          <bendpoints>
+            <point x="1355.0" y="597.0"/>
+            <point x="1355.0" y="646.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="107">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f1</seg>
+          </bo>
+          <bendpoints>
+            <point x="1355.0" y="668.0"/>
+            <point x="1355.0" y="646.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="104">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f2</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element id="105">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f3</seg>
+          </bo>
+          <bendpoints>
+            <point x="1355.0" y="668.0"/>
+            <point x="1355.0" y="597.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="103">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>thr</seg>
+          </bo>
+          <position x="99.0" y="114.0"/>
+          <size width="76.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element id="102">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>sphere_clincher</seg>
+        </bo>
+        <position x="1050.0" y="359.0"/>
+        <size width="381.0" height="179.0"/>
+        <contentFilters>
+          <filter>agree.all</filter>
+          <filter>subcomponentType</filter>
+          <filter>features</filter>
+          <filter>modeTransitions</filter>
+          <filter>modes</filter>
+          <filter>flowSpecifications</filter>
+          <filter>connections</filter>
+          <filter>subcomponents</filter>
+          <filter>subprogramCallSequences</filter>
+          <filter>processorFeatures</filter>
+          <filter>internalFeatures</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>integration.functional</seg>
+      </bo>
+      <position x="10.0" y="110.0"/>
+      <size width="1470.0" height="811.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>processorFeatures</filter>
+        <filter>internalFeatures</filter>
+      </contentFilters>
+    </element>
+    <element id="138">
+      <element id="139">
+        <bo>
+          <seg>implementation_extension</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>integration.strategy1</seg>
+      </bo>
+      <position x="230.0" y="10.0"/>
+      <size width="197.0" height="35.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>sslights::integration</seg>
+    </bo>
+    <position x="110.0" y="40.0"/>
+    <size width="1490.0" height="940.0"/>
+    <contentFilters>
+      <filter>classifiers</filter>
+    </contentFilters>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>sslights::integration</seg>
+    </context>
+  </config>
+</diagram:Diagram>

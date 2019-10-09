@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="5">
+  <element id="0" manual="true">
+    <element id="9">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>can1</seg>
+      </bo>
+      <position x="404.0" y="55.0"/>
+      <size width="83.0" height="35.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>connections</filter>
+      </contentFilters>
+    </element>
+    <element id="5">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>can2</seg>
+      </bo>
+      <position x="404.0" y="110.0"/>
+      <size width="83.0" height="35.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>connections</filter>
+      </contentFilters>
+    </element>
+    <element id="34">
+      <element id="36" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>socket1</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element id="35" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>socket2</seg>
+        </bo>
+        <position y="59.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>cpu</seg>
+      </bo>
+      <position x="507.0" y="37.0"/>
+      <size width="204.0" height="108.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>connections</filter>
+      </contentFilters>
+    </element>
+    <element id="27">
+      <element id="28" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>raw_image</seg>
+        </bo>
+        <position x="242.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>detection_camera</seg>
+      </bo>
+      <position x="12.0" y="188.0"/>
+      <size width="324.0" height="59.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>connections</filter>
+      </contentFilters>
+    </element>
+    <element id="44">
+      <element id="45" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>distance</seg>
+        </bo>
+        <position x="325.0" y="35.0"/>
+        <contentFilters/>
+      </element>
+      <element id="46" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>distance_estimate</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element id="47" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>object_detected</seg>
+        </bo>
+        <position y="59.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>distance_calc</seg>
+      </bo>
+      <position x="785.0" y="420.0"/>
+      <size width="392.0" height="108.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>connections</filter>
+      </contentFilters>
+    </element>
+    <element id="16">
+      <element id="18" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>object_detected</seg>
+        </bo>
+        <position y="59.0"/>
+        <contentFilters/>
+      </element>
+      <element id="17" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>raw_image</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>image_input</seg>
+      </bo>
+      <position x="356.0" y="188.0"/>
+      <size width="350.0" height="108.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>connections</filter>
+      </contentFilters>
+    </element>
+    <element id="60">
+      <element id="61" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>act_type</seg>
+        </bo>
+        <position y="59.0"/>
+        <contentFilters/>
+      </element>
+      <element id="64" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>color_cmd</seg>
+        </bo>
+        <position x="297.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element id="63" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>intensity_cmd</seg>
+        </bo>
+        <position x="278.0" y="59.0"/>
+        <contentFilters/>
+      </element>
+      <element id="62" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>lp_ids</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>lamppost_controller</seg>
+      </bo>
+      <position x="1505.0" y="316.0"/>
+      <size width="376.0" height="108.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>connections</filter>
+      </contentFilters>
+    </element>
+    <element id="32">
+      <element id="33" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speed</seg>
+        </bo>
+        <position x="234.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>laser_motion_sensor</seg>
+      </bo>
+      <position x="478.0" y="316.0"/>
+      <size width="287.0" height="59.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>connections</filter>
+      </contentFilters>
+    </element>
+    <element id="6">
+      <element id="8" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>color_cmd</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element id="7" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>intensity_cmd</seg>
+        </bo>
+        <position y="59.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>light_ctrl</seg>
+      </bo>
+      <position x="1901.0" y="316.0"/>
+      <size width="301.0" height="108.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>connections</filter>
+      </contentFilters>
+    </element>
+    <element id="71">
+      <element id="74" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>distance_estimate</seg>
+        </bo>
+        <position x="283.0" y="35.0"/>
+        <contentFilters/>
+      </element>
+      <element id="73" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>object_position</seg>
+        </bo>
+        <position y="59.0"/>
+        <contentFilters/>
+      </element>
+      <element id="72" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>raw_image</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>object_detection</seg>
+      </bo>
+      <position x="356.0" y="395.0"/>
+      <size width="409.0" height="108.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>connections</filter>
+      </contentFilters>
+    </element>
+    <element id="51">
+      <element id="52" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>distance_estimate</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>object_radar</seg>
+      </bo>
+      <position x="12.0" y="37.0"/>
+      <size width="380.0" height="59.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>connections</filter>
+      </contentFilters>
+    </element>
+    <element id="39">
+      <element id="42" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>msg_in</seg>
+        </bo>
+        <position x="204.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="41" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>msg_out</seg>
+        </bo>
+        <position y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="40" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>warning</seg>
+        </bo>
+        <position y="88.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>peer_check</seg>
+      </bo>
+      <position x="723.0" y="37.0"/>
+      <size width="264.0" height="139.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>connections</filter>
+      </contentFilters>
+    </element>
+    <element id="21">
+      <element id="22" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speed</seg>
+        </bo>
+        <position x="323.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element id="23" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speed_estimate</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>speed_assessor</seg>
+      </bo>
+      <position x="793.0" y="316.0"/>
+      <size width="376.0" height="59.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>connections</filter>
+      </contentFilters>
+    </element>
+    <element id="54">
+      <element id="55" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>act_type</seg>
+        </bo>
+        <position x="221.0" y="59.0"/>
+        <contentFilters/>
+      </element>
+      <element id="58" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>distance</seg>
+        </bo>
+        <position y="59.0"/>
+        <contentFilters/>
+      </element>
+      <element id="57" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>lp_ids</seg>
+        </bo>
+        <position x="236.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element id="56" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>speed</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>sphere_clincher</seg>
+      </bo>
+      <position x="1197.0" y="316.0"/>
+      <size width="288.0" height="108.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>connections</filter>
+      </contentFilters>
+    </element>
+    <element id="75">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>b00 : integration_strategy1_instance.can1 -> integration_strategy1_instance.cpu.socket1</seg>
+      </bo>
+      <bendpoints>
+        <point x="503.0" y="84.0"/>
+        <point x="509.0" y="84.0"/>
+        <point x="509.0" y="90.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element id="11">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>b01 : integration_strategy1_instance.can2 -> integration_strategy1_instance.cpu.socket2</seg>
+      </bo>
+      <bendpoints>
+        <point x="499.0" y="139.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element id="12">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c00 : integration_strategy1_instance.detection_camera.raw_image -> integration_strategy1_instance.image_input.raw_image</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element id="66">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c01 : integration_strategy1_instance.detection_camera.raw_image -> integration_strategy1_instance.object_detection.raw_image</seg>
+      </bo>
+      <bendpoints>
+        <point x="358.0" y="241.0"/>
+        <point x="358.0" y="448.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element id="26">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c03 : integration_strategy1_instance.laser_motion_sensor.speed -> integration_strategy1_instance.speed_assessor.speed_estimate</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element id="31">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c04 : integration_strategy1_instance.speed_assessor.speed -> integration_strategy1_instance.sphere_clincher.speed</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element id="14">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c05 : integration_strategy1_instance.object_detection.distance_estimate -> integration_strategy1_instance.distance_calc.distance_estimate</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element id="65">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c06 : integration_strategy1_instance.speed_assessor.speed -> integration_strategy1_instance.sphere_clincher.speed</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element id="49">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c07 : integration_strategy1_instance.distance_calc.distance -> integration_strategy1_instance.sphere_clincher.distance</seg>
+      </bo>
+      <bendpoints>
+        <point x="1199.0" y="497.0"/>
+        <point x="1199.0" y="418.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element id="69">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c08 : integration_strategy1_instance.sphere_clincher.lp_ids -> integration_strategy1_instance.lamppost_controller.lp_ids</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element id="43">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c09 : integration_strategy1_instance.sphere_clincher.act_type -> integration_strategy1_instance.lamppost_controller.act_type</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element id="3">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c10 : integration_strategy1_instance.peer_check.msg_out -> integration_strategy1_instance.peer_check.msg_in</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element id="67">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c11 : integration_strategy1_instance.lamppost_controller.color_cmd -> integration_strategy1_instance.light_ctrl.color_cmd</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element id="4">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c12 : integration_strategy1_instance.lamppost_controller.intensity_cmd -> integration_strategy1_instance.light_ctrl.intensity_cmd</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <bo>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/smart-street-lights/instances/sslights-integration_integration_strategy1_instance.aaxl2</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="2214.0" height="540.0"/>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>connections</filter>
+      <filter>subcomponents</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/smart-street-lights/instances/sslights-integration_integration_strategy1_instance.aaxl2</seg>
+    </context>
+  </config>
+</diagram:Diagram>

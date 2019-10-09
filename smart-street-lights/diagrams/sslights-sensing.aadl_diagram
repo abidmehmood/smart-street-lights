@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="5">
+  <element id="0" manual="true">
+    <element id="5">
+      <element id="6" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>raw_image</seg>
+        </bo>
+        <position x="149.0" y="30.0"/>
+        <contentFilters/>
+      </element>
+      <element id="9">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>detection_camera</seg>
+      </bo>
+      <position x="80.0" y="150.0"/>
+      <size width="231.0" height="80.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="1">
+      <element id="10" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>speed</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element id="11">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>laser_motion_sensor</seg>
+      </bo>
+      <position x="80.0" y="270.0"/>
+      <size width="287.0" height="59.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="3">
+      <element id="8" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>distance_estimate</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element id="7">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>object_radar</seg>
+      </bo>
+      <position x="80.0" y="50.0"/>
+      <size width="380.0" height="59.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>sslights::sensing</seg>
+    </bo>
+    <position x="290.0" y="180.0"/>
+    <size width="539.0" height="381.0"/>
+    <contentFilters>
+      <filter>classifiers</filter>
+    </contentFilters>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>sslights::sensing</seg>
+    </context>
+  </config>
+</diagram:Diagram>

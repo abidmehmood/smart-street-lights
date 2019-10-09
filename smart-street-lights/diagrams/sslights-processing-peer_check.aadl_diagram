@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="5">
+  <element id="0" manual="true">
+    <element id="2">
+      <element id="17" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>msg_in</seg>
+        </bo>
+        <position y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="15" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>msg_out</seg>
+        </bo>
+        <position x="191.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="25" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>warning</seg>
+        </bo>
+        <position x="195.0" y="81.0"/>
+        <contentFilters/>
+      </element>
+      <element id="16">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>peer_check</seg>
+      </bo>
+      <position x="558.0" y="18.0"/>
+      <size width="259.0" height="120.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="5">
+      <element id="8">
+        <element id="9">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c0</seg>
+        </bo>
+        <bendpoints>
+          <point x="122.0" y="128.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="11">
+        <element id="12">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c1</seg>
+        </bo>
+        <bendpoints>
+          <point x="198.0" y="128.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="13" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>msg_in</seg>
+        </bo>
+        <position y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="7" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>msg_out</seg>
+        </bo>
+        <position x="200.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="27" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>warning</seg>
+        </bo>
+        <position x="204.0" y="81.0"/>
+        <contentFilters/>
+      </element>
+      <element id="10">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <bendpoints>
+          <point x="112.0" y="128.0"/>
+          <point x="112.0" y="100.0"/>
+          <point x="208.0" y="100.0"/>
+          <point x="208.0" y="128.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="6">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="168.0" y="78.0"/>
+          <point x="180.0" y="78.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="14">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>thr</seg>
+        </bo>
+        <position x="92.0" y="51.0"/>
+        <size width="76.0" height="35.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>peer_check.i</seg>
+      </bo>
+      <position x="18.0" y="48.0"/>
+      <size width="268.0" height="120.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>processorFeatures</filter>
+        <filter>internalFeatures</filter>
+      </contentFilters>
+    </element>
+    <element id="1">
+      <element id="20" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>msg_in</seg>
+        </bo>
+        <position y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="18" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>msg_out</seg>
+        </bo>
+        <position x="214.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="24" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>warning</seg>
+        </bo>
+        <position x="218.0" y="81.0"/>
+        <contentFilters/>
+      </element>
+      <element id="19">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>peer_check_thr</seg>
+      </bo>
+      <position x="547.0" y="121.0"/>
+      <size width="282.0" height="120.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="3">
+      <element id="23" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>msg_in</seg>
+        </bo>
+        <position y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="21" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>msg_out</seg>
+        </bo>
+        <position x="221.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="26" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>warning</seg>
+        </bo>
+        <position x="225.0" y="81.0"/>
+        <contentFilters/>
+      </element>
+      <element id="22">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="4">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="434.0" y="318.0"/>
+          <point x="446.0" y="318.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>peer_check_thr.i</seg>
+      </bo>
+      <position x="259.0" y="288.0"/>
+      <size width="289.0" height="120.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>processorFeatures</filter>
+        <filter>internalFeatures</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>sslights::processing::peer_check</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="829.0" height="409.0"/>
+    <contentFilters>
+      <filter>classifiers</filter>
+    </contentFilters>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>sslights::processing::peer_check</seg>
+    </context>
+  </config>
+</diagram:Diagram>

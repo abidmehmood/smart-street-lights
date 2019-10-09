@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="5">
+  <element id="0" manual="true">
+    <element id="2">
+      <element id="45" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>act_type</seg>
+        </bo>
+        <position y="86.0"/>
+        <contentFilters/>
+      </element>
+      <element id="49" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>color_cmd</seg>
+        </bo>
+        <position x="291.0" y="86.0"/>
+        <contentFilters/>
+      </element>
+      <element id="43" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>intensity_cmd</seg>
+        </bo>
+        <position x="272.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="44" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>lp_ids</seg>
+        </bo>
+        <position y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="47">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f00</seg>
+        </bo>
+        <bendpoints>
+          <point x="879.0" y="666.0"/>
+          <point x="879.0" y="715.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="46">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f01</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="50">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f10</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="48">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f11</seg>
+        </bo>
+        <bendpoints>
+          <point x="879.0" y="715.0"/>
+          <point x="879.0" y="666.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>lamppost_controller</seg>
+      </bo>
+      <position x="778.0" y="498.0"/>
+      <size width="370.0" height="137.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="4">
+      <element id="26">
+        <element id="27">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c00</seg>
+        </bo>
+        <bendpoints>
+          <point x="235.33333333333337" y="751.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="30">
+        <element id="31">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c01</seg>
+        </bo>
+        <bendpoints>
+          <point x="209.0" y="702.0"/>
+          <point x="209.0" y="739.3333333333334"/>
+          <point x="231.33333333333337" y="739.3333333333334"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="34">
+        <element id="35">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c02</seg>
+        </bo>
+        <bendpoints>
+          <point x="351.33333333333337" y="745.1666666666667"/>
+          <point x="370.0" y="745.1666666666667"/>
+          <point x="370.0" y="772.6666666666667"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="24">
+        <element id="25">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c10</seg>
+        </bo>
+        <bendpoints>
+          <point x="219.0" y="751.0"/>
+          <point x="219.0" y="669.3333333333334"/>
+          <point x="225.0" y="669.3333333333334"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="28">
+        <element id="29">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c11</seg>
+        </bo>
+        <bendpoints>
+          <point x="209.0" y="702.0"/>
+          <point x="209.0" y="657.6666666666666"/>
+          <point x="225.0" y="657.6666666666666"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="32">
+        <element id="33">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c12</seg>
+        </bo>
+        <bendpoints>
+          <point x="364.0" y="663.5"/>
+          <point x="370.0" y="663.5"/>
+          <point x="370.0" y="691.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="38" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>act_type</seg>
+        </bo>
+        <position y="73.0"/>
+        <contentFilters/>
+      </element>
+      <element id="36" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>color_cmd</seg>
+        </bo>
+        <position x="349.0" y="144.0"/>
+        <contentFilters/>
+      </element>
+      <element id="22" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>intensity_cmd</seg>
+        </bo>
+        <position x="330.0" y="62.0"/>
+        <contentFilters/>
+      </element>
+      <element id="23" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>lp_ids</seg>
+        </bo>
+        <position y="122.0"/>
+        <contentFilters/>
+      </element>
+      <element id="40">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f00</seg>
+        </bo>
+        <bendpoints>
+          <point x="219.0" y="751.0"/>
+          <point x="219.0" y="772.6666666666667"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="39">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f01</seg>
+        </bo>
+        <bendpoints>
+          <point x="370.0" y="702.0"/>
+          <point x="370.0" y="772.6666666666667"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="42">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f10</seg>
+        </bo>
+        <bendpoints>
+          <point x="219.0" y="751.0"/>
+          <point x="219.0" y="691.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="41">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f11</seg>
+        </bo>
+        <bendpoints>
+          <point x="209.0" y="702.0"/>
+          <point x="209.0" y="635.0"/>
+          <point x="370.0" y="635.0"/>
+          <point x="370.0" y="691.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="5">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="312.0" y="615.5"/>
+          <point x="324.0" y="615.5"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="21">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>color_thr</seg>
+        </bo>
+        <position x="115.0" y="130.0"/>
+        <size width="112.0" height="35.0"/>
+        <contentFilters/>
+      </element>
+      <element id="37">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>intensity_thr</seg>
+        </bo>
+        <position x="109.0" y="48.0"/>
+        <size width="131.0" height="35.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>lamppost_controller.i</seg>
+      </bo>
+      <position x="108.0" y="498.0"/>
+      <size width="428.0" height="195.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>processorFeatures</filter>
+        <filter>internalFeatures</filter>
+      </contentFilters>
+    </element>
+    <element id="1">
+      <element id="12" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>act_type</seg>
+        </bo>
+        <position y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="15" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>color_cmd</seg>
+        </bo>
+        <position x="322.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="11" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>lp_ids</seg>
+        </bo>
+        <position y="86.0"/>
+        <contentFilters/>
+      </element>
+      <element id="14">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f00</seg>
+        </bo>
+        <bendpoints>
+          <point x="395.0" y="345.0"/>
+          <point x="395.0" y="296.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="13">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f01</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>lamppost_controller_color_thr</seg>
+      </bo>
+      <position x="294.0" y="128.0"/>
+      <size width="401.0" height="137.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="3">
+      <element id="18" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>act_type</seg>
+        </bo>
+        <position y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="16" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>intensity_cmd</seg>
+        </bo>
+        <position x="364.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="17" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>lp_ids</seg>
+        </bo>
+        <position y="86.0"/>
+        <contentFilters/>
+      </element>
+      <element id="20">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f10</seg>
+        </bo>
+        <bendpoints>
+          <point x="395.0" y="505.0"/>
+          <point x="395.0" y="456.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="19">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f11</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>lamppost_controller_intensity_thr</seg>
+      </bo>
+      <position x="294.0" y="288.0"/>
+      <size width="462.0" height="137.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>sslights::processing::lamppost_controller</seg>
+    </bo>
+    <position x="12.0" y="100.0"/>
+    <size width="1178.0" height="751.0"/>
+    <contentFilters>
+      <filter>agree.all</filter>
+      <filter>classifiers</filter>
+    </contentFilters>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>sslights::processing::lamppost_controller</seg>
+    </context>
+  </config>
+</diagram:Diagram>

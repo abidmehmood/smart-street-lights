@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="5">
+  <element id="0" manual="true">
+    <element id="4">
+      <element id="42" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>distance_estimate</seg>
+        </bo>
+        <position y="45.0"/>
+        <contentFilters/>
+      </element>
+      <element id="26" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>object_position</seg>
+        </bo>
+        <position x="283.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="41" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>raw_image</seg>
+        </bo>
+        <position/>
+        <contentFilters/>
+      </element>
+      <element id="23">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element id="24">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f1</seg>
+        </bo>
+        <bendpoints>
+          <point x="853.0" y="195.0"/>
+          <point x="853.0" y="146.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>object_detection</seg>
+      </bo>
+      <position x="688.0" y="228.0"/>
+      <size width="397.0" height="137.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element id="2">
+      <element id="11">
+        <element id="12">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c0</seg>
+        </bo>
+        <bendpoints>
+          <point x="213.0" y="186.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="18">
+        <element id="19">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c1</seg>
+        </bo>
+        <bendpoints>
+          <point x="203.0" y="235.0"/>
+          <point x="203.0" y="198.0"/>
+          <point x="209.0" y="198.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="16">
+        <element id="17">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c2</seg>
+        </bo>
+        <bendpoints>
+          <point x="289.0" y="192.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="37" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>distance_estimate</seg>
+        </bo>
+        <position y="45.0"/>
+        <contentFilters/>
+      </element>
+      <element id="20" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>object_position</seg>
+        </bo>
+        <position x="474.0" y="43.0"/>
+        <contentFilters/>
+      </element>
+      <element id="36" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>raw_image</seg>
+        </bo>
+        <position/>
+        <contentFilters/>
+      </element>
+      <element id="13">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <bendpoints>
+          <point x="203.0" y="186.0"/>
+          <point x="203.0" y="163.0"/>
+          <point x="299.0" y="163.0"/>
+          <point x="299.0" y="192.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="14">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f1</seg>
+        </bo>
+        <bendpoints>
+          <point x="299.0" y="235.0"/>
+          <point x="299.0" y="192.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="3">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="227.0" y="136.0"/>
+          <point x="239.0" y="136.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="21">
+        <element id="39" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>distance_estimate</seg>
+          </bo>
+          <position y="57.0"/>
+          <contentFilters/>
+        </element>
+        <element id="40" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>object_position</seg>
+          </bo>
+          <position x="319.0" y="57.0"/>
+          <contentFilters/>
+        </element>
+        <element id="38" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>raw_image</seg>
+          </bo>
+          <position y="106.0"/>
+          <contentFilters/>
+        </element>
+        <element id="28">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f0</seg>
+          </bo>
+          <bendpoints>
+            <point x="361.0" y="311.0"/>
+            <point x="361.0" y="262.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element id="29">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>f1</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element id="32">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>thr</seg>
+        </bo>
+        <position x="155.0" y="56.0"/>
+        <size width="433.0" height="157.0"/>
+        <contentFilters>
+          <filter>agree.all</filter>
+          <filter>subcomponentType</filter>
+          <filter>features</filter>
+          <filter>modeTransitions</filter>
+          <filter>modes</filter>
+          <filter>flowSpecifications</filter>
+          <filter>connections</filter>
+          <filter>subcomponents</filter>
+          <filter>subprogramCallSequences</filter>
+          <filter>processorFeatures</filter>
+          <filter>internalFeatures</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>object_detection.i</seg>
+      </bo>
+      <position x="38.0" y="268.0"/>
+      <size width="588.0" height="213.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>processorFeatures</filter>
+        <filter>internalFeatures</filter>
+      </contentFilters>
+    </element>
+    <element id="1">
+      <element id="34" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>distance_estimate</seg>
+        </bo>
+        <position y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="35" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>object_position</seg>
+        </bo>
+        <position x="316.0" y="37.0"/>
+        <contentFilters/>
+      </element>
+      <element id="33" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>raw_image</seg>
+        </bo>
+        <position y="86.0"/>
+        <contentFilters/>
+      </element>
+      <element id="6">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f0</seg>
+        </bo>
+        <bendpoints>
+          <point x="439.0" y="4.0"/>
+          <point x="439.0" y="-45.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element id="7">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>f1</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>object_detection_thr</seg>
+      </bo>
+      <position x="271.0" y="37.0"/>
+      <size width="430.0" height="137.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>sslights::processing::object_detection</seg>
+    </bo>
+    <position x="20.0" y="-150.0"/>
+    <size width="1105.0" height="531.0"/>
+    <contentFilters>
+      <filter>classifiers</filter>
+    </contentFilters>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>sslights::processing::object_detection</seg>
+    </context>
+  </config>
+</diagram:Diagram>

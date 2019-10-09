@@ -1,0 +1,33 @@
+Latency analysis with preference settings: asynchronous system/partition end/worst case as max compute execution time/best case as full queue min compute execution time
+
+Latency results for end-to-end flow 'object_detection_to_color_set' of system 'integration.strategy1',
+
+Result,Min Specified,Min Actual,Min Method,Max Specified,Max Actual,Max Method,Comments,
+device detection_camera,,0.0ms,no latency,,0.0ms,no latency,
+(bus can1),1.0ms,610.0ms,transmission time,1.0ms,6030.0ms,transmission time,Using data transfer time,
+connection detection_camera.raw_image -> object_detection.thr.raw_image,,610.0ms,no latency,,6030.0ms,no latency,Adding latency subtotal from protocols and hardware - shown with (),
+thread object_detection.thr,,0.0ms,sampling,,100.0ms,sampling,Best case 0 ms worst case 100.0ms (period) sampling delay,
+thread object_detection.thr,,20.0ms,processing time,,50.0ms,processing time,Using execution time as deadline was not set,
+(bus can2),1.0ms,10.004ms,transmission time,1.0ms,30.04ms,transmission time,Using data transfer time,
+connection object_detection.thr.distance_estimate -> distance_calc.thr.distance_estimate,,10.004ms,no latency,,30.04ms,no latency,Adding latency subtotal from protocols and hardware - shown with (),
+thread distance_calc.thr,,0.0ms,sampling,,7.960000000000008ms,sampling,Min: Best case: 0 ms sampling delay,Synchronous communication on same platform,Max: Worst case: Round up sampling delay to period 8.0ms,
+thread distance_calc.thr,,0.0ms,no latency,,8.0ms,deadline,Using deadline as execution time was not set,
+(bus can2),1.0ms,10.004ms,transmission time,1.0ms,30.04ms,transmission time,Using data transfer time,
+connection distance_calc.thr.distance -> sphere_clincher.thr.distance,,10.004ms,no latency,,30.04ms,no latency,Adding latency subtotal from protocols and hardware - shown with (),
+thread sphere_clincher.thr,,0.0ms,sampling,,1.9600000000000009ms,sampling,Min: Best case: 0 ms sampling delay,Synchronous communication on same platform,Max: Worst case: Round up sampling delay to period 8.0ms,
+thread sphere_clincher.thr,,0.0ms,no latency,,8.0ms,deadline,Using deadline as execution time was not set,
+(bus can2),1.0ms,10.001ms,transmission time,1.0ms,30.01ms,transmission time,Using data transfer time,
+connection sphere_clincher.thr.lp_ids -> lamppost_controller.color_thr.lp_ids,,10.001ms,no latency,,30.01ms,no latency,Adding latency subtotal from protocols and hardware - shown with (),
+thread lamppost_controller.color_thr,,0.0ms,sampling,,1.9899999999999949ms,sampling,Min: Best case: 0 ms sampling delay,Synchronous communication on same platform,Max: Worst case: Round up sampling delay to period 5.0ms,
+thread lamppost_controller.color_thr,,0.0ms,no latency,,5.0ms,deadline,Using deadline as execution time was not set,
+(bus can1),1.0ms,10.001ms,transmission time,1.0ms,30.01ms,transmission time,Using data transfer time,
+connection lamppost_controller.color_thr.color_cmd -> light_ctrl.color_cmd,,10.001ms,no latency,,30.01ms,no latency,Adding latency subtotal from protocols and hardware - shown with (),
+device light_ctrl,,0.0ms,sampling,,2.0ms,sampling,Assume Periodic dispatch because period is set,Best case 0 ms worst case 2.0ms (period) sampling delay,
+device light_ctrl,,0.0ms,no latency,,2.0ms,deadline,Using deadline as execution time was not set,
+Latency Total,5.0ms,670.01ms,,5.0ms,6337.01ms,,
+Specified End To End Latency,,0.0ms,,,0.0ms,,
+End to end Latency Summary,
+WARNING,Expected end to end latency is not specified,
+
+
+
